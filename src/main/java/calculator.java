@@ -7,14 +7,14 @@ public class calculator {
         double result1;
         double result2;
 
-        System.out.println("a: ");
-        double a = sc.nextDouble();
-        System.out.println("b: ");
-        double b = sc.nextDouble();
-        System.out.println("c: ");
-        double c = sc.nextDouble();
-        System.out.println("What units will your result be in?:");
+        System.out.println("\nWhat units will your result be in?");
         String units = sc.nextLine();
+        System.out.print("a: ");
+        double a = sc.nextDouble();
+        System.out.print("b: ");
+        double b = sc.nextDouble();
+        System.out.print("c: ");
+        double c = sc.nextDouble();
 
         // calculate square root and inside
         double sqrt = Math.sqrt((Math.pow(b,2) - (4 * a * c)));
