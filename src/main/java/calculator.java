@@ -13,7 +13,7 @@ public class calculator {
         double b = sc.nextDouble();
         System.out.println("c: ");
         double c = sc.nextDouble();
-        System.out.println("What units will your result be in?");
+        System.out.println("What units will your result be in?:");
         String units = sc.nextLine();
 
         // calculate square root and inside
